@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Interests() {
-    return (
-        <div>
-            <h2>Interests</h2>
-            <p>Studying</p>
-        </div>
-    )
+  return (
+    <div>
+      <h3 className="interest--title">Interests</h3>
+      <p className="interest--info">Studying</p>
+    </div>
+  );
 }

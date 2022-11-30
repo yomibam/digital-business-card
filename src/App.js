@@ -6,11 +6,13 @@ import Socials from "./components/Socials.js";
 
 export default function App() {
   return (
-    <div>
-      <Info />
-      <About />
-      <Interests />
-      <Socials />
+    <div class="main--page">
+      <div class="page--size">
+        <Info />
+        <About />
+        <Interests />
+        <Socials />
+      </div>
     </div>
   );
 }
